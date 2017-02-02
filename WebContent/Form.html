@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Servlet Form</title>
+</head>
+<body>
+
+	<form action="XmlServletPath">
+		<p>Get method:</p>
+		User Name:<input name="userName">  <br> <br> User Id:<input
+			name="userId"> <br> <br> <input type="submit">
+	</form>
+-----------------------------------------------------
+	<form method="post" action="XmlServletPath">
+		<p>Post method:</p>
+		UserName:<input name="userName"> <br> <br> 
+		FullName:<input name="fullName"> <br> <br> 
+		UserId:<input name="userId"> <br> <br>  Profession: <input
+			type="radio" name="prof" value="Developer">Developer</input> <input
+			type="radio" name="prof" value="Architecht">Architect</input> <br>
+		<br> 
+		location:<select name="location" multiple size="3">
+			<option value="here">here</option>
+			<option value="there">there</option>
+			<option value="far">far</option>
+			<option value="nowhere">nowhere</option>
+		</select> <br> <br>
+			<input type="submit">
+	</form>
+
+</body>
+</html>
